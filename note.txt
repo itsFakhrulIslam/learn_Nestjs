@@ -1,1 +1,56 @@
 nestjs learning start of the name of 'ALLAH'
+
+what is nestjs
+    -nestjs is a backend app well structured top of the nodejs
+    -nestjs is a opinionated framework
+
+nestjs topic
+    -controller(req, res)
+    -service
+
+nestjs start by
+    -main.ts
+
+AppModule / moduler approach
+    taskModule
+        -controller
+        -service
+        -others
+    userMoudle
+        -controller
+        -service
+        -others
+
+what is moduler approach
+    every single task is seprate from another, thats why its called moduler approach
+
+common word of nestjs
+    -moduler
+    -controller
+    -service(service is a provider)
+    -provider
+
+decorator in nestjs
+    -@Controller()
+    -@Injectable()
+    -@Module()
+    -@Get()
+    -@Post()
+    -@Patch/Put()
+    -@Delete()
+    to get data on the request
+    -@Param()
+    -@Body()
+
+http methods
+    -get
+    -post
+    -patch/put
+    -delete
+
+API Endpoints
+    -get(/task)
+    -get(/task/:id)
+    -post(/task)
+    -patch/put(/task/:id)
+    -delete(/task/:id)
