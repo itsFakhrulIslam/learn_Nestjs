@@ -54,3 +54,6 @@ API Endpoints
     -post(/task)
     -patch/put(/task/:id)
     -delete(/task/:id)
+
+nestjs setup
+    -nest new project-name
